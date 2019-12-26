@@ -12,8 +12,8 @@ for (let i = 0; i < btns.length; i++) {
    });
 }
 equalBtn.addEventListener('click', function () {
-   let sum = eval(screen.value);
-   screen.value = sum;
+   let result = eval(screen.value);
+   screen.value = result;
 });
 
 clearBtn.addEventListener('click', function() {
